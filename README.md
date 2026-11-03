@@ -20,9 +20,15 @@ Private AI for your Mac. Three things, all running on your Mac, with nothing you
 ## Install
 
 1. Download **Familiar.dmg** from the [latest release](../../releases/latest), open it, and drag Familiar to Applications.
-2. Open Familiar. Because it isn't notarized, macOS says it can't check the app the first time:
-   - **macOS 15 Sequoia and later:** click **Done**, open **System Settings → Privacy & Security**, scroll down to "Familiar was blocked…", click **Open Anyway**, then **Open Anyway** again and enter your password.
+2. Open Familiar. Because it isn't notarized, the first time macOS says:
+
+   > Apple could not verify “Familiar” is free of malware that may harm your Mac or compromise your privacy.
+
+   That's expected for an app that isn't notarized. To open it:
+   - **macOS 15 Sequoia and later:** click **Done** (not Move to Trash). Open **System Settings → Privacy & Security**, scroll down to **“Familiar” was blocked to protect your Mac**, and click **Open Anyway**. Open Familiar again, click **Open Anyway**, and enter your password.
    - **macOS 13 and 14:** right-click Familiar in Applications, choose **Open**, then **Open**.
+
+   You only do this once.
 3. Follow the four short steps: **Get Started** (the models start downloading), the folders to search, the Microphone and Accessibility permissions (for speech; you can skip them), and a first try of push to talk.
 
 To check the download, compare its SHA-256 with the one in the release notes: `shasum -a 256 ~/Downloads/Familiar.dmg`

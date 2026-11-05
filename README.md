@@ -6,6 +6,8 @@ Private AI for your Mac. Three things, all running on your Mac, with nothing you
 - **Ask:** questions answered from your files and meetings, with the sources to click through to.
 - **Speak:** hold a key and talk to type in any app; record meetings (your microphone and the call's sound, any meeting app, no bot joining) with a transcript and who said what.
 
+![Familiar finding photos from searches in Japanese, Tamil and English, then answering questions with sources](docs/familiar-demo.gif)
+
 > **Not notarized by Apple yet**, so macOS asks you to approve it once (steps below). Found a problem? [Open an issue](../../issues).
 
 ![Familiar's runtime architecture](docs/architecture.png)

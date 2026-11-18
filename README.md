@@ -10,6 +10,8 @@ Private AI for your Mac. Three things, all running on your Mac, with nothing you
 
 > **Not notarized by Apple yet**, so macOS asks you to approve it once (steps below). Found a problem? [Open an issue](../../issues).
 
+**Source code:** Familiar is open source under the MIT license, at [github.com/kaushicaravind2000/familiar](https://github.com/kaushicaravind2000/familiar).
+
 ![Familiar's runtime architecture](docs/architecture.png)
 
 ## Requirements
@@ -62,4 +64,4 @@ After an update, macOS asks again for Accessibility (push to talk), because each
 
 Familiar was inspired by [Google AI Edge Foresight](https://developers.google.com/edge/foresight), Google's experimental on-device Mac app that pairs EmbeddingGemma 2 with Gemma 4 for meeting notes and local search, and by [DigUp](https://github.com/ARahim3/DigUp) by Abdur Rahim, the open-source file search that first put EmbeddingGemma 2 to work on personal files. Familiar runs [EmbeddingGemma 2](https://huggingface.co/ggml-org/embeddinggemma-2-GGUF) (Google DeepMind) and Qwen3.5-4B on [llama.cpp](https://github.com/ggml-org/llama.cpp), and speech on [FluidAudio](https://github.com/FluidInference/FluidAudio) (Parakeet, LocalVQE, pyannote). Gemma is a trademark of Google LLC. Third-party licences are in the app: Familiar.app/Contents/Resources.
 
-Familiar is an independent project, not affiliated with or endorsed by Google. The app is free to use; its source code isn't public yet.
+Familiar is an independent project, not affiliated with or endorsed by Google. The app is free to use, and its [source code](https://github.com/kaushicaravind2000/familiar) is open under the MIT license.
